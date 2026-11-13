@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": 2,
-  "uppdaterad": "2026-11-13T20:00:00Z",
+  "uppdaterad": "2026-11-13T20:30:00Z",
   "mejl_kontrollerade_till": "2026-11-13",
   "kalla": "Import från Google-arket AIK Fotboll Trupp 2026-11-13",
   "granskning": "Kontrollerad mot AIK Fotbolls pressmeddelanden 2023-11-13 – 2026-11-13",
@@ -16,6 +16,10 @@
    "HM": "Högermittfältare",
    "YM": "Yttermittfältare (sida okänd)",
    "ANF": "Anfallare"
+  },
+  "falt": {
+   "pos": "huvudposition",
+   "pos_ovr": "lista med övriga positioner (valfri)"
   }
  },
  "spelare": [
@@ -605,19 +609,6 @@
    "total": true,
    "effektiv": false,
    "utlanad": false
-  },
-  {
-   "namn": "Tinde Teribe",
-   "nr": null,
-   "land": "",
-   "pos": "",
-   "fodd": "",
-   "kontraktsslut": "2029-12-31",
-   "hemmafostrad": "Nej",
-   "aiku": "Nej",
-   "total": true,
-   "effektiv": false,
-   "utlanad": false
   }
  ],
  "logg": [
@@ -835,6 +826,15 @@
    "andring": "Position YM -> VM",
    "kalla": "Nana-Kofi Donkor ansluter till AIK Fotboll (\"vänstermittfältaren\")",
    "mejl_id": "19fd6845abee83b5"
+  },
+  {
+   "id": "manuell-2026-11-13-teribe",
+   "datum": "2026-11-13",
+   "namn": "Tinde Teribe",
+   "typ": "lämnar",
+   "andring": "Borttagen: har inte längre kontrakt med AIK",
+   "kalla": "Uppgift från Anton",
+   "mejl_id": ""
   }
  ]
 }
