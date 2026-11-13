@@ -1,10 +1,22 @@
 {
  "meta": {
   "version": 2,
-  "uppdaterad": "2026-11-13T19:30:00Z",
+  "uppdaterad": "2026-11-13T20:00:00Z",
   "mejl_kontrollerade_till": "2026-11-13",
   "kalla": "Import från Google-arket AIK Fotboll Trupp 2026-11-13",
-  "granskning": "Kontrollerad mot AIK Fotbolls pressmeddelanden 2023-11-13 – 2026-11-13"
+  "granskning": "Kontrollerad mot AIK Fotbolls pressmeddelanden 2023-11-13 – 2026-11-13",
+  "positionskoder": {
+   "MV": "Målvakt",
+   "VB": "Vänsterback",
+   "HB": "Högerback",
+   "YB": "Ytterback (sida okänd)",
+   "MB": "Mittback",
+   "CM": "Central mittfältare",
+   "VM": "Vänstermittfältare",
+   "HM": "Högermittfältare",
+   "YM": "Yttermittfältare (sida okänd)",
+   "ANF": "Anfallare"
+  }
  },
  "spelare": [
   {
@@ -167,7 +179,7 @@
    "namn": "Mads Thychosen",
    "nr": 17,
    "land": "Danmark",
-   "pos": "YB",
+   "pos": "HB",
    "fodd": "1997-06-27",
    "kontraktsslut": "2027-12-31",
    "hemmafostrad": "Nej",
@@ -388,7 +400,7 @@
    "namn": "Nana-Kofi Donkor",
    "nr": null,
    "land": "Ghana",
-   "pos": "YM",
+   "pos": "VM",
    "fodd": "2007-01-05",
    "kontraktsslut": "2030-12-31",
    "hemmafostrad": "Nej",
@@ -427,7 +439,7 @@
    "namn": "Aziz Harabi",
    "nr": null,
    "land": "Sverige",
-   "pos": "YB",
+   "pos": "VB",
    "fodd": "2002-12-11",
    "kontraktsslut": "2030-12-31",
    "hemmafostrad": "Ja",
@@ -796,6 +808,33 @@
    "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2029-12-31",
    "kalla": "Tinde Teribe skriver avtal med AIK Fotboll",
    "mejl_id": "199e229e610ce892"
+  },
+  {
+   "id": "1a048c8de8848dad-pos",
+   "datum": "2026-08-28",
+   "namn": "Aziz Harabi",
+   "typ": "rättning",
+   "andring": "Position YB -> VB",
+   "kalla": "AIK Fotboll värvar Aziz Harabi inför 2027 (\"vänsterbacken\")",
+   "mejl_id": "1a048c8de8848dad"
+  },
+  {
+   "id": "194515fc5bf0cc9d-pos",
+   "datum": "2025-01-10",
+   "namn": "Mads Thychosen",
+   "typ": "rättning",
+   "andring": "Position YB -> HB",
+   "kalla": "Mads Thychosen förlänger med AIK Fotboll (\"högerbacken\")",
+   "mejl_id": "194515fc5bf0cc9d"
+  },
+  {
+   "id": "19fd6845abee83b5-pos",
+   "datum": "2026-08-06",
+   "namn": "Nana-Kofi Donkor",
+   "typ": "rättning",
+   "andring": "Position YM -> VM",
+   "kalla": "Nana-Kofi Donkor ansluter till AIK Fotboll (\"vänstermittfältaren\")",
+   "mejl_id": "19fd6845abee83b5"
   }
  ]
 }
