@@ -1,9 +1,10 @@
 {
  "meta": {
-  "version": 1,
-  "uppdaterad": "2026-11-13T18:10:00Z",
+  "version": 2,
+  "uppdaterad": "2026-11-13T19:30:00Z",
   "mejl_kontrollerade_till": "2026-11-13",
-  "kalla": "Import från Google-arket AIK Fotboll Trupp 2026-11-13"
+  "kalla": "Import från Google-arket AIK Fotboll Trupp 2026-11-13",
+  "granskning": "Kontrollerad mot AIK Fotbolls pressmeddelanden 2023-11-13 – 2026-11-13"
  },
  "spelare": [
   {
@@ -46,7 +47,7 @@
    "utlanad": false
   },
   {
-   "namn": "Lukas Berquist",
+   "namn": "Lukas Bergquist",
    "nr": 5,
    "land": "Sverige",
    "pos": "YB",
@@ -116,7 +117,7 @@
    "land": "Sverige",
    "pos": "YB",
    "fodd": "2008-06-07",
-   "kontraktsslut": "2027-12-31",
+   "kontraktsslut": "2030-12-31",
    "hemmafostrad": "Ja",
    "aiku": "Ja",
    "total": true,
@@ -211,7 +212,7 @@
    "hemmafostrad": "Nej",
    "aiku": "Nej",
    "total": true,
-   "effektiv": false,
+   "effektiv": true,
    "utlanad": false
   },
   {
@@ -285,7 +286,7 @@
    "land": "Sverige",
    "pos": "ANF",
    "fodd": "2008-11-30",
-   "kontraktsslut": "2028-06-30",
+   "kontraktsslut": "2029-08-31",
    "hemmafostrad": "Ja",
    "aiku": "Ja",
    "total": true,
@@ -328,7 +329,7 @@
    "hemmafostrad": "Ja",
    "aiku": "Ja",
    "total": true,
-   "effektiv": false,
+   "effektiv": true,
    "utlanad": false
   },
   {
@@ -415,7 +416,7 @@
    "land": "Sverige",
    "pos": "CM",
    "fodd": "2007-04-12",
-   "kontraktsslut": "2029-12-31",
+   "kontraktsslut": "2029-08-31",
    "hemmafostrad": "Ja",
    "aiku": "Ja",
    "total": true,
@@ -433,7 +434,8 @@
    "aiku": "Nej",
    "total": true,
    "effektiv": false,
-   "utlanad": false
+   "utlanad": false,
+   "fran": "2027-01-01"
   },
   {
    "namn": "Ibrahima Chérif Fofana",
@@ -446,7 +448,8 @@
    "aiku": "Nej",
    "total": true,
    "effektiv": false,
-   "utlanad": false
+   "utlanad": false,
+   "fran": "2027-01-01"
   },
   {
    "namn": "Aaron Stoch Rydell",
@@ -483,35 +486,126 @@
    "kontraktsslut": "2026-12-31",
    "hemmafostrad": "Nej",
    "aiku": "Nej",
-   "total": false,
+   "total": true,
    "effektiv": true,
    "utlanad": false
   },
   {
-   "namn": "Henry Atola Meja",
+   "namn": "Lucas Assadi",
    "nr": null,
-   "land": "Kenya",
-   "pos": "ANF",
-   "fodd": "2001-12-21",
-   "kontraktsslut": "2026-09-01",
+   "land": "Chile",
+   "pos": "CM",
+   "fodd": "",
+   "kontraktsslut": "2030-12-31",
    "hemmafostrad": "Nej",
    "aiku": "Nej",
-   "total": false,
-   "effektiv": false,
-   "utlanad": true
+   "total": true,
+   "effektiv": true,
+   "utlanad": false
   },
   {
-   "namn": "Jere Uronen",
+   "namn": "Oreoluwa Agbenla",
    "nr": null,
-   "land": "Finland",
-   "pos": "YB",
-   "fodd": "1994-07-13",
-   "kontraktsslut": "2026-12-31",
-   "hemmafostrad": "Ja",
+   "land": "Nigeria",
+   "pos": "CM",
+   "fodd": "",
+   "kontraktsslut": "2030-12-31",
+   "hemmafostrad": "Nej",
    "aiku": "Nej",
-   "total": false,
+   "total": true,
    "effektiv": false,
-   "utlanad": true
+   "utlanad": false
+  },
+  {
+   "namn": "David Oluwaseyi Oludase",
+   "nr": null,
+   "land": "Nigeria",
+   "pos": "YM",
+   "fodd": "",
+   "kontraktsslut": "2029-12-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Nej",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Robin Krügel",
+   "nr": null,
+   "land": "",
+   "pos": "CM",
+   "fodd": "",
+   "kontraktsslut": "2029-08-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Nej",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Kalle Hagen",
+   "nr": null,
+   "land": "Sverige",
+   "pos": "MB",
+   "fodd": "",
+   "kontraktsslut": "2029-12-31",
+   "hemmafostrad": "Ja",
+   "aiku": "Ja",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Muslim Adamovich Sultygov",
+   "nr": null,
+   "land": "",
+   "pos": "ANF",
+   "fodd": "",
+   "kontraktsslut": "2029-12-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Ja",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Mohammed Shilla",
+   "nr": null,
+   "land": "Tanzania",
+   "pos": "",
+   "fodd": "",
+   "kontraktsslut": "2030-12-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Nej",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Nikolaj Staykov",
+   "nr": null,
+   "land": "",
+   "pos": "ANF",
+   "fodd": "",
+   "kontraktsslut": "2029-12-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Nej",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
+  },
+  {
+   "namn": "Tinde Teribe",
+   "nr": null,
+   "land": "",
+   "pos": "",
+   "fodd": "",
+   "kontraktsslut": "2029-12-31",
+   "hemmafostrad": "Nej",
+   "aiku": "Nej",
+   "total": true,
+   "effektiv": false,
+   "utlanad": false
   }
  ],
  "logg": [
@@ -522,6 +616,186 @@
    "andring": "39 spelare importerade från Google-arket",
    "kalla": "Google-arket AIK Fotboll Trupp",
    "mejl_id": ""
+  },
+  {
+   "id": "1a0a4b98831a984c-1",
+   "datum": "2026-09-15",
+   "namn": "Charlie Pavey",
+   "typ": "rättning",
+   "andring": "Kontrakt 2027-12-31 -> 2030-12-31",
+   "kalla": "AIK Fotboll förlänger med Charlie Pavey",
+   "mejl_id": "1a0a4b98831a984c"
+  },
+  {
+   "id": "1a067c9241577809-1",
+   "datum": "2026-09-03",
+   "namn": "Kevin Filling",
+   "typ": "rättning",
+   "andring": "Kontrakt 2028-06-30 -> 2029-08-31",
+   "kalla": "AIK Fotboll förlänger med Kevin Filling",
+   "mejl_id": "1a067c9241577809"
+  },
+  {
+   "id": "1a188640f99d7af8-1",
+   "datum": "2026-10-29",
+   "namn": "Filip Lukic",
+   "typ": "rättning",
+   "andring": "Kontrakt 2029-12-31 -> 2029-08-31",
+   "kalla": "Filip Lukic klar för AIK Fotboll",
+   "mejl_id": "1a188640f99d7af8"
+  },
+  {
+   "id": "19c9e8b089b3220a-1",
+   "datum": "2026-02-27",
+   "namn": "Lukas Bergquist",
+   "typ": "rättning",
+   "andring": "Namn Berquist -> Bergquist",
+   "kalla": "Lukas Bergquist klar för AIK Fotboll",
+   "mejl_id": "19c9e8b089b3220a"
+  },
+  {
+   "id": "1a048c8de8848dad-1",
+   "datum": "2026-08-28",
+   "namn": "Aziz Harabi",
+   "typ": "rättning",
+   "andring": "Kontraktet gäller från 2027-01-01",
+   "kalla": "AIK Fotboll värvar Aziz Harabi inför 2027",
+   "mejl_id": "1a048c8de8848dad"
+  },
+  {
+   "id": "1a1a6dc4d193e0f3-1",
+   "datum": "2026-11-04",
+   "namn": "Ibrahima Chérif Fofana",
+   "typ": "rättning",
+   "andring": "Kontraktet gäller från 2027-01-01",
+   "kalla": "Ibrahima Chérif Fofana klar för AIK Fotboll",
+   "mejl_id": "1a1a6dc4d193e0f3"
+  },
+  {
+   "id": "19f93e3f4ec8404b-1",
+   "datum": "2026-07-24",
+   "namn": "Wilmer Olofsson",
+   "typ": "återkomst",
+   "andring": "Tillbaka från lån i Moss FK -> med i effektiv trupp",
+   "kalla": "Wilmer Olofsson tillbaka från utlåning",
+   "mejl_id": "19f93e3f4ec8404b"
+  },
+  {
+   "id": "1a059840e811667f-1",
+   "datum": "2026-08-31",
+   "namn": "Sebastian Hausner",
+   "typ": "rättning",
+   "andring": "Inlånad från AC Horsens över 2026 -> med i effektiv trupp",
+   "kalla": "Sebastian Hausner lånas in över 2026",
+   "mejl_id": "1a059840e811667f"
+  },
+  {
+   "id": "19fbc56bca51a07b-1",
+   "datum": "2026-08-01",
+   "namn": "Diogo Tomas",
+   "typ": "rättning",
+   "andring": "Saknades i total trupp -> tillagd (avtal säsongen 2026 + option)",
+   "kalla": "Diogo Tomas till AIK Fotboll",
+   "mejl_id": "19fbc56bca51a07b"
+  },
+  {
+   "id": "19f9eba2450c53d5-1",
+   "datum": "2026-07-26",
+   "namn": "Jere Uronen",
+   "typ": "lämnar",
+   "andring": "Borttagen ur utlånade (har lämnat klubben)",
+   "kalla": "Jere Uronen lämnar AIK Fotboll",
+   "mejl_id": "19f9eba2450c53d5"
+  },
+  {
+   "id": "1a07b18f68548183-1",
+   "datum": "2026-09-07",
+   "namn": "Henry Atola Meja",
+   "typ": "lämnar",
+   "andring": "Borttagen ur utlånade (har lämnat klubben)",
+   "kalla": "Henry \"Meja\" Atola lämnar AIK Fotboll",
+   "mejl_id": "1a07b18f68548183"
+  },
+  {
+   "id": "1a043bc8520ae383-1",
+   "datum": "2026-08-27",
+   "namn": "Lucas Assadi",
+   "typ": "värvning",
+   "andring": "Tillagd (värvning, omgående transfer), kontrakt t.o.m. 2030-12-31",
+   "kalla": "Lucas Assadi klar för AIK Fotboll",
+   "mejl_id": "1a043bc8520ae383"
+  },
+  {
+   "id": "19f6f4e2cf87b9c7-1",
+   "datum": "2026-07-17",
+   "namn": "Oreoluwa Agbenla",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2030-12-31",
+   "kalla": "Oreoluwa Agbenla klar för AIK Fotboll",
+   "mejl_id": "19f6f4e2cf87b9c7"
+  },
+  {
+   "id": "1a058df61a269cb9-1",
+   "datum": "2026-08-31",
+   "namn": "David Oluwaseyi Oludase",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2029-12-31",
+   "kalla": "David Oluwaseyi Oludase klar för AIK Fotboll",
+   "mejl_id": "1a058df61a269cb9"
+  },
+  {
+   "id": "1a05ca0870ac53e5-1",
+   "datum": "2026-09-01",
+   "namn": "Robin Krügel",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2029-08-31",
+   "kalla": "Robin Krügel värvas till AIK Fotboll",
+   "mejl_id": "1a05ca0870ac53e5"
+  },
+  {
+   "id": "1a05dea24b4c433f-1",
+   "datum": "2026-09-01",
+   "namn": "Kalle Hagen",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal, från AIK U), kontrakt t.o.m. 2029-12-31",
+   "kalla": "Kalle Hagen skriver A-lagskontrakt",
+   "mejl_id": "1a05dea24b4c433f"
+  },
+  {
+   "id": "19f21a1034342603-1",
+   "datum": "2026-07-02",
+   "namn": "Muslim Adamovich Sultygov",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal, från AIK P19), kontrakt t.o.m. 2029-12-31",
+   "kalla": "Muslim Adamovich Sultygov skriver A-lagskontrakt",
+   "mejl_id": "19f21a1034342603"
+  },
+  {
+   "id": "19bf4990a5cfcc54-1",
+   "datum": "2026-01-25",
+   "namn": "Mohammed Shilla",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2030-12-31",
+   "kalla": "Mohammed Shilla klar för AIK Fotboll",
+   "mejl_id": "19bf4990a5cfcc54"
+  },
+  {
+   "id": "199e297d0573ae36-1",
+   "datum": "2025-10-14",
+   "namn": "Nikolaj Staykov",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2029-12-31",
+   "kalla": "Nikolaj Staykov till AIK Fotboll",
+   "mejl_id": "199e297d0573ae36"
+  },
+  {
+   "id": "199e229e610ce892-1",
+   "datum": "2025-10-14",
+   "namn": "Tinde Teribe",
+   "typ": "värvning",
+   "andring": "Tillagd (övergångsspelaravtal (akademin)), kontrakt t.o.m. 2029-12-31",
+   "kalla": "Tinde Teribe skriver avtal med AIK Fotboll",
+   "mejl_id": "199e229e610ce892"
   }
  ]
 }
